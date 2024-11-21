@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dictionary App</title>
+  <link rel="stylesheet" href="assets/css/dictionary.css">
+  <script src="assets/js/dictionary.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <!--container start-->
+
+    <div class="inner-container">
+ 
+    <div class="header">
+      <img src="assets/img/book-icon.svg" alt="">
+
+      <div class="header-right">
+        <select name="font-type" id="font-type">
+          <option value="Sans Serif">Sans Serif</option>
+          <option value="Serif">Serif</option>
+          <option value="Mono">Mono</option>
+        </select>
+        <input class="switch" type="checkbox" id="themeChange">
+        <span><img src="assets/img/dark-theme.svg" alt="Dark Mode Icon"></span>
+      </div>
+
+    </div>
+
+    <form id="filterForm">
+      <input class="inputSearch" type="text" placeholder="aranacak kelime" name="filteredWord">
+    </form>
+    <p class="word-area"></p>
+    <ul class =  "meanings-area"></ul>
+   </div>
+
+ </div>
+ <!--container ends-->
+</body>
+</html>
